@@ -140,8 +140,8 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
         dispose();
         
-//        DataSecurity dataSecurity = new DataSecurity();
-//        dataSecurity.setVisible(true);
+        DataSecurity dataSecurity = new DataSecurity();
+        dataSecurity.setVisible(true);
     }//GEN-LAST:event_jLabelSecurityMouseClicked
 
     private void jLabelDashboardMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelDashboardMouseClicked
@@ -155,8 +155,8 @@ public class Menu extends javax.swing.JFrame {
     private void jLabelScheduleMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelScheduleMouseClicked
         // TODO add your handling code here:
         dispose();
-//        Schedule schedule = new Schedule();
-//        schedule.setVisible(true);
+        Schedule schedule = new Schedule();
+        schedule.setVisible(true);
                 
     }//GEN-LAST:event_jLabelScheduleMouseClicked
 
@@ -167,16 +167,16 @@ public class Menu extends javax.swing.JFrame {
         if(result == 0){
             dispose();
         
-//            Login login = new Login();
-//            login.setVisible(true);
+            Login login = new Login();
+            login.setVisible(true);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabelSecurityPostMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelSecurityPostMouseClicked
         // TODO add your handling code here:
         dispose();
-//        SecurityPost securityPost = new SecurityPost();
-//        securityPost.setVisible(true);
+        SecurityPost securityPost = new SecurityPost();
+        securityPost.setVisible(true);
                 
     }//GEN-LAST:event_jLabelSecurityPostMouseClicked
 
